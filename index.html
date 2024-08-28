@@ -33,6 +33,11 @@
     <h2>Key Financial Exposure Trends for U.S. Banks</h2>
     <p>The following visualization showcases the trends in financial exposure for various types of banks in the United States, segmented by categories such as Domestic Banks, Foreign Banks, and consolidated financial exposure from parent companies. These charts highlight significant trends before and after the 2008 financial crisis, with an emphasis on systemic risk, international diversification, and post-crisis recovery.</p>
 
+    <h2>Key Visual: Financial Exposure Trends</h2>
+    <img src="./financial_exposure_trends.png" alt="Financial Exposure Trends for US Banks">
+    <p>This composite visualization provides a comprehensive view of financial exposure trends across different bank categories in the United States over time, highlighting key developments before and after the 2008 crisis.</p>
+      <h1>Financial Exposure Forecasting with Holt-Winters and LSTM Models</h1>
+
     <h3>Chart Summary</h3>
     <p><strong>1. Domestic Banks (4B & 4R):</strong> The financial exposure of domestic banks shows a significant increase starting around 2008, reflecting recovery efforts post-financial crisis. The steep rise in the 4R category suggests a boost in international transactions and investments.</p>
     <p><strong>2. All Banks Excluding 4C (4O):</strong> A generally increasing trend with volatility highlights the growing exposure to international markets. These fluctuations indicate higher-risk activities abroad, as banks sought to diversify post-crisis.</p>
@@ -43,11 +48,6 @@
     <h2>Financial Explanation and Insights</h2>
     <p>The data indicates a marked recovery in financial exposure across various types of banks following the 2008 financial crisis. The increased exposure, particularly post-2008, reflects global diversification strategies and risk management practices as banks sought to stabilize and grow their portfolios. The fluctuations seen in categories such as 4M and 4O demonstrate engagement in higher-risk international activities, likely influenced by changes in global economic conditions and regulatory frameworks.</p>
     <p>The consolidation of foreign banks within the U.S. system, as seen in the 4C category, also highlights the growing international presence in the U.S. financial landscape. This trend reflects the overall robustness of the U.S. banking system in adapting to post-crisis challenges and strengthening its global reach.</p>
-
-    <h2>Key Visual: Financial Exposure Trends</h2>
-    <img src="./financial_exposure_trends.png" alt="Financial Exposure Trends for US Banks">
-    <p>This composite visualization provides a comprehensive view of financial exposure trends across different bank categories in the United States over time, highlighting key developments before and after the 2008 crisis.</p>
-      <h1>Financial Exposure Forecasting with Holt-Winters and LSTM Models</h1>
 
     <h2>Project Overview</h2>
     <p>This project focuses on forecasting financial exposure trends for U.S. banks using time series models such as Holt-Winters Exponential Smoothing and LSTM Neural Networks. By utilizing both traditional statistical methods and advanced deep learning models, we aim to capture linear, seasonal, and non-linear patterns in financial data. Below are the results and insights from our analyses using the two forecasting techniques.</p>
@@ -61,21 +61,22 @@
 
     <h2>Key Visualizations</h2>
 
-    <h3>1. LSTM Model Forecast for Financial Exposure</h3>
-    <p>The LSTM model was trained on the historical financial exposure data and used to predict future trends. The model effectively captures complex patterns, as shown in the comparison between true data, LSTM training, and LSTM test predictions.</p>
-    <img src="./lstm_forecast.png" alt="LSTM Forecast for Financial Exposure">
-
-    <h3>2. Holt-Winters Exponential Smoothing Model Fit (4B - Domestic Banks)</h3>
+   
+    <h3>1. Holt-Winters Exponential Smoothing Model Fit (4B - Domestic Banks)</h3>
     <p>The Holt-Winters model was applied to the financial exposure of domestic banks (4B), forecasting future trends using additive seasonality and trend components.</p>
     <img src="./hw_forecast1.png" alt="Holt-Winters Forecast for Domestic Banks">
 
-    <h3>3. Holt-Winters Exponential Smoothing Forecast (4B - Domestic Banks)(from 2005 onwards)</h3>
+    <h3>2. Holt-Winters Exponential Smoothing Forecast (4B - Domestic Banks)(from 2005 onwards)</h3>
     <p>This visualization illustrates the fit of the Holt-Winters model on U.S. financial exposure data from 2005 onwards. The model captures the additive seasonal components and provides a smooth prediction of future trends based on past behavior.</p>
     <img src="./hw_forecast2.png" alt="Holt-Winters Forecast for Domestic Banks from 2005 onwards">
 
     <h3>3. Holt-Winters Exponential Smoothing Forecast (4B - Domestic Banks)(from 2015 onwards)</h3>
     <p>This visualization illustrates the fit of the Holt-Winters model on U.S. financial exposure data from 2015 onwards. The model captures the additive seasonal components and provides a smooth prediction of future trends based on past behavior.</p>
     <img src="./hw_forecast3.png" alt="Holt-Winters Forecast for Domestic Banks from 2015 onwards">
+    
+    <h3>4. LSTM Model Forecast for Financial Exposure</h3>
+    <p>The LSTM model was trained on the historical financial exposure data and used to predict future trends. The model effectively captures complex patterns, as shown in the comparison between true data, LSTM training, and LSTM test predictions.</p>
+    <img src="./lstm_forecast.png" alt="LSTM Forecast for Financial Exposure">
 
     <h2>Model Implementation</h2>
     <p>The implementation of the two models is shown below:</p>
