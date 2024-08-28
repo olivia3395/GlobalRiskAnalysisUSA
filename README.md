@@ -66,7 +66,7 @@ This project is built using several open-source libraries including:
 - **matplotlib**: For data visualization.
 - **statsmodels**: For time series modeling.
 - **tensorflow**: For building deep learning models.
-- **Prophet**: For handling seasonality in time series forecasting.
+
 
 Special thanks to the [Bank for International Settlements (BIS)] for providing the financial exposure data.
 
