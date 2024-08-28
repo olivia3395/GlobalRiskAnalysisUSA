@@ -50,7 +50,8 @@ Several models are trained and visualized for comparison. Below are sample resul
 
 - **Holt-Winters Forecast:**
   ![Holt-Winters Forecast](./hw_forecast1.png)
-  ![Holt-Winters Forecast](./hw_forecast2.png) 
+  ![Holt-Winters Forecast](./hw_forecast2.png)
+   ![Holt-Winters Forecast](./hw_forecast3.png) 
   
 - **LSTM Model Forecast:**
   ![LSTM Forecast](./lstm_forecast.png) 
