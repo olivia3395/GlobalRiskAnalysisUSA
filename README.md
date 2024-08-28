@@ -49,10 +49,11 @@ A deep learning model particularly well-suited for time series forecasting due t
 Several models are trained and visualized for comparison. Below are sample results from the Holt-Winters and LSTM models:
 
 - **Holt-Winters Forecast:**
-  ![Holt-Winters Forecast](results/hw_forecast.png) (replace with actual image path)
+  ![Holt-Winters Forecast](./hw_forecast1.png)
+  ![Holt-Winters Forecast](./hw_forecast2.png) 
   
 - **LSTM Model Forecast:**
-  ![LSTM Forecast](results/lstm_forecast.png) (replace with actual image path)
+  ![LSTM Forecast](./lstm_forecast.png) 
 
 ### Residual Analysis
 
