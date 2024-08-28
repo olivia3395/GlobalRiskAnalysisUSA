@@ -65,13 +65,17 @@
     <p>The LSTM model was trained on the historical financial exposure data and used to predict future trends. The model effectively captures complex patterns, as shown in the comparison between true data, LSTM training, and LSTM test predictions.</p>
     <img src="./lstm_forecast.png" alt="LSTM Forecast for Financial Exposure">
 
-    <h3>2. Holt-Winters Exponential Smoothing Model Fit (All Banks)</h3>
-    <p>This visualization illustrates the fit of the Holt-Winters model on U.S. financial exposure data from 2005 onwards. The model captures the additive seasonal components and provides a smooth prediction of future trends based on past behavior.</p>
-    <img src="./hw_forecast2.png" alt="Holt-Winters Forecast for All Banks">
-
-    <h3>3. Holt-Winters Exponential Smoothing Forecast (4B - Domestic Banks)</h3>
+    <h3>2. Holt-Winters Exponential Smoothing Model Fit (4B - Domestic Banks)</h3>
     <p>The Holt-Winters model was applied to the financial exposure of domestic banks (4B), forecasting future trends using additive seasonality and trend components.</p>
     <img src="./hw_forecast1.png" alt="Holt-Winters Forecast for Domestic Banks">
+
+    <h3>3. Holt-Winters Exponential Smoothing Forecast (4B - Domestic Banks)(from 2005 onwards)</h3>
+    <p>This visualization illustrates the fit of the Holt-Winters model on U.S. financial exposure data from 2005 onwards. The model captures the additive seasonal components and provides a smooth prediction of future trends based on past behavior.</p>
+    <img src="./hw_forecast2.png" alt="Holt-Winters Forecast for Domestic Banks from 2005 onwards">
+
+    <h3>3. Holt-Winters Exponential Smoothing Forecast (4B - Domestic Banks)(from 2015 onwards)</h3>
+    <p>This visualization illustrates the fit of the Holt-Winters model on U.S. financial exposure data from 2015 onwards. The model captures the additive seasonal components and provides a smooth prediction of future trends based on past behavior.</p>
+    <img src="./hw_forecast3.png" alt="Holt-Winters Forecast for Domestic Banks from 2015 onwards">
 
     <h2>Model Implementation</h2>
     <p>The implementation of the two models is shown below:</p>
@@ -96,8 +100,6 @@
     model_lstm.fit(X_train, y_train, epochs=100, batch_size=32, validation_data=(X_test, y_test))
     </code>
 
-    <h2>Conclusion</h2>
-    <p>The Holt-Winters model, with its ability to capture seasonality and trend, provided accurate forecasts for the financial exposure of U.S. banks, particularly for structured seasonal data. On the other hand, the LSTM model was able to capture complex non-linearities within the data, making it more adaptable to shifts and irregular patterns in financial exposure. Each model has its strengths, with Holt-Winters being ideal for linear, seasonal datasets and LSTM excelling in non-linear, complex scenarios. Future enhancements will focus on refining model performance during volatile periods by incorporating additional economic indicators.</p>
-
+   
 </body>
 </html>
