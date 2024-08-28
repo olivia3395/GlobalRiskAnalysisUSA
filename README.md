@@ -19,7 +19,7 @@ The dataset contains historical financial exposure data by different CBS bank ty
 ### Download Dataset
 
 - You can download the dataset used in this project from the following link: [BIS Data](https://www.bis.org/statistics/credstat.htm).
-- Alternatively, if you prefer working with a pre-processed dataset, you can download it from [Google Drive](https://drive.google.com/your-dataset-link) or [Kaggle Datasets](https://www.kaggle.com/your-dataset-link).
+
 
 
 
