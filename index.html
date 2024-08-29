@@ -83,9 +83,9 @@
 <div class="container">
     <h1>Global Risk Analysis USA</h1>
     <h2>Financial Exposure Forecasting Using Time Series Models</h2>
-
+    
     <p>This project utilizes various time series models, including the <strong>Prophet</strong> model, to forecast financial exposure trends for the United States based on historical data. The project explores traditional time series approaches such as Exponential Smoothing and ARIMA, as well as machine learning methods like Long Short-Term Memory (LSTM) networks.</p>
-
+    
     <h2 class="section-title">Table of Contents</h2>
     <ul>
         <li><a href="#dataset">Dataset</a></li>
@@ -102,7 +102,28 @@
 
     <h3>Download Dataset</h3>
     <p>You can download the dataset used in this project from the following link: <a href="https://www.bis.org/statistics/consstats.htm" target="_blank">BIS Data</a>.</p>
+     <h2>Project Overview</h2>
+    <p>This project analyzes the evolution of financial exposure across different categories of banks in the United States, utilizing quarterly data from the BIS global banking dataset. The study focuses on trends, risks, and the impact of the 2008 financial crisis on domestic and foreign banks operating within the U.S. financial system.</p>
 
+    <h2>Key Financial Exposure Trends for U.S. Banks</h2>
+    <p>The following visualization showcases the trends in financial exposure for various types of banks in the United States, segmented by categories such as Domestic Banks, Foreign Banks, and consolidated financial exposure from parent companies. These charts highlight significant trends before and after the 2008 financial crisis, with an emphasis on systemic risk, international diversification, and post-crisis recovery.</p>
+    <h2>Key Visual: Financial Exposure Trends</h2>
+    <img src="financial_exposure_trends.png" alt="Financial Exposure Trends for US Banks">
+    <p>This composite visualization provides a comprehensive view of financial exposure trends across different bank categories in the United States over time, highlighting key developments before and after the 2008 crisis.</p>
+
+    <h3>Chart Summary</h3>
+    <p><strong>1. Domestic Banks (4B & 4R):</strong> The financial exposure of domestic banks shows a significant increase starting around 2008, reflecting recovery efforts post-financial crisis. The steep rise in the 4R category suggests a boost in international transactions and investments.</p>
+    <p><strong>2. All Banks Excluding 4C (4O):</strong> A generally increasing trend with volatility highlights the growing exposure to international markets. These fluctuations indicate higher-risk activities abroad, as banks sought to diversify post-crisis.</p>
+    <p><strong>3. Domestic Banks:</strong> The financial exposure for domestic banks (4B) shows steady growth over time, indicating the stabilization of domestic activities and assets after the 2008 financial crisis.</p>
+    <p><strong>4. Inside-Area Foreign Banks Consolidated by Parent (4C):</strong> The steady rise in exposure for foreign banks consolidated by their parent companies (4C) suggests that foreign banks have strengthened their presence within the U.S. financial system post-crisis.</p>
+    <p><strong>5. All Banks (4M):</strong> The exposure for all banks shows sharp increases leading to the 2008 financial crisis, followed by heightened volatility. This indicates increased systemic risk during the crisis, with subsequent recovery marked by fluctuations in financial activities.</p>
+
+    <h2>Financial Explanation and Insights</h2>
+    <p>The data indicates a marked recovery in financial exposure across various types of banks following the 2008 financial crisis. The increased exposure, particularly post-2008, reflects global diversification strategies and risk management practices as banks sought to stabilize and grow their portfolios. The fluctuations seen in categories such as 4M and 4O demonstrate engagement in higher-risk international activities, likely influenced by changes in global economic conditions and regulatory frameworks.</p>
+    <p>The consolidation of foreign banks within the U.S. system, as seen in the 4C category, also highlights the growing international presence in the U.S. financial landscape. This trend reflects the overall robustness of the U.S. banking system in adapting to post-crisis challenges and strengthening its global reach.</p>
+
+  
+    
     <h3>Forecasting for Specific CBS Bank Types</h3>
     <p>The dataset contains different CBS bank types. You can adjust the models to forecast for a specific bank type, such as <code>4B</code> (Domestic Banks). The script automatically handles filtering by the desired bank type.</p>
 
