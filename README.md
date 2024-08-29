@@ -22,8 +22,6 @@ The dataset contains historical financial exposure data by different CBS bank ty
 
 
 
-
-
 ### Forecasting for Specific CBS Bank Types
 
 The dataset contains different CBS bank types. You can adjust the models to forecast for a specific bank type, such as `4B` (Domestic Banks). The script automatically handles filtering by the desired bank type.
@@ -62,9 +60,7 @@ Non-stationary time series data have time-dependent statistical properties, such
 ### SARIMA Model Overview
 ![SARIMA Model Backtest: Forecast vs Actual](./sarima_forecast_vs_actual.png)
 
-The Seasonal Autoregressive Integrated Moving Average (SARIMA) model extends ARIMA to handle seasonal time series. It is represented as:
-
-$$ \operatorname{SARIMA}(p, d, q) \times (P, D, Q, s) $$
+**SARIMA(p, d, q) × (P, D, Q, s)**
 
 Where:
 - **p, d, q**: Non-seasonal ARIMA terms for autoregression, differencing, and moving average.
